@@ -12,8 +12,8 @@ Prerequisites:
 
 Deployment:
 1. Login to cf CLI
-    cf login -u S0025060671 -p DiamondPen@69 -a https://api.cf.eu20-001.hana.ondemand.com
+    - cf login -u S0025060671 -p DiamondPen@69 -a https://api.cf.eu20-001.hana.ondemand.com
 2. Target the correct org and space
-    cf target -o "Naveena ARUL_cloudfoundry-mm06oum3" -s first-space
+    - cf target -o "Naveena ARUL_cloudfoundry-mm06oum3" -s first-space
 3. Deploy the application
-    cf push
+    - cf push
