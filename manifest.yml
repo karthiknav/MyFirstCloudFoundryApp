@@ -1,0 +1,8 @@
+applications:
+  - name: firstCloudFoundryApp
+    instances: 1
+    memory: 768M
+    path: target/firstCloudFoundryApp-0.0.1-SNAPSHOT.jar
+    env:
+      SPRING_PROFILES_ACTIVE: cloud,test
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
